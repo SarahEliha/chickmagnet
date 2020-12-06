@@ -4,4 +4,6 @@ Use this script to get magnet links for RARBG and automatically add them to qBit
 
 ## Usage
 
-`python3 chickmagnet.py "<SEARCH_TERM>"`
+```python3 chickmagnet.py "<SEARCH_TERM>"```
+
+

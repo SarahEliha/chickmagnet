@@ -1,7 +1,7 @@
 import os, requests, time, json, sys
 
-API = 'https://torrentapi.org/pubapi_v2.php?app_id=coombox&'
-APP_ID = 'coombox'
+APP_ID = 'APP_NAME'
+API = 'https://torrentapi.org/pubapi_v2.php?app_id=' + APP_ID + '&'
 
 session = requests.Session()
 session.headers.update({'Accept': 'application/json', 'User-Agent': 'coombox/coombox'})
