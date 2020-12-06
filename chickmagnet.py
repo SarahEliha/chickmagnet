@@ -1,10 +1,10 @@
 import os, requests, time, json, sys
 
-APP_ID = 'APP_NAME'
+APP_ID = 'APP_ID'
 API = 'https://torrentapi.org/pubapi_v2.php?app_id=' + APP_ID + '&'
 
 session = requests.Session()
-session.headers.update({'Accept': 'application/json', 'User-Agent': 'coombox/coombox'})
+session.headers.update({'Accept': 'application/json', 'User-Agent': APP_ID + '/' + APP_ID})
 
 request = session.get(API, params={'app_id': APP_ID, 'get_token': 'get_token'})
 TOKEN = request.json()['token']
