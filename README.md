@@ -10,7 +10,7 @@ Install `requests` with `pip install requests`.
 
 ## Usage
 
-`python3 chickmagnet.py "<SEARCH_TERM>"`
+`python3 chickmagnet.py "search term 1080p"`
 
 ## Customization
 
