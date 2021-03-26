@@ -4,7 +4,7 @@ Use this script to list magnet links for RARBG searches.
 
 ## Requirements
 - `python` version >= 3
-- `requests` (`pip install requests`)
+- `requests` (`pip3 install requests`)
 
 ## Usage
 Edit chickmagnet.py and set the variable `APP_ID` to something unique of your choosing (without spaces).
