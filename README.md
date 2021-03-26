@@ -9,7 +9,8 @@ Python > 3
 ## Usage
 Edit chickmagnet.py and set the variable `APP_ID` to something unique of your choosing (without spaces).
 
-Get magnet links by `python3 chickmagnet.py "search term`
+
+Get magnet links by `python3 chickmagnet.py "search term"`
 
 *Note: You can only get a maximum of 100 magnet links. This is a restriction of the RARBG API.*
 
