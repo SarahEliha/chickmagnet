@@ -3,7 +3,7 @@
 Use this script to list magnet links for RARBG searches.
 
 ## Requirements
-- Python > 3
+- `python` version >= 3
 - `requests` (`pip install requests`)
 
 ## Usage
