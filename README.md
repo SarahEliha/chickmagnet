@@ -1,21 +1,20 @@
 # Chick Magnet
 
-Use this script to get magnet links for RARBG and automatically add them to qBittorrent.
+Use this script to list magnet links for RARBG searches.
 
 ## Requirements
-
-You need [qBittorrent-nox](https://manpages.ubuntu.com/manpages/cosmic/man1/qbittorrent-nox.1.html) if you want the script to automatically queue torrents.
-
-Install `requests` with `pip install requests`.
+Python > 3
+`requests` (`pip install requests`)
 
 ## Usage
+Edit chickmagnet.py and set the variable `APP_ID` to something unique of your choosing (without spaces).
 
-`python3 chickmagnet.py "search term 1080p"`
+Get magnet links by `python3 chickmagnet.py "search term`
 
-## Customization
+*Note: You can only get a maximum of 100 magnet links. This is a restriction of the RARBG API.*
 
-Set the variable `APP_ID` to something unique of your choosing (without spaces).
+The list of magnet links of your most recent search is output in **recent_results.txt**.
 
-If you want to list the magnets instead of downloading them then uncomment line 26.
+A cumulative list of magnet links is stored in **magnets.txt**.
 
-If you are unable to (or do not want to) use qBittorrent-nox, comment out lines 32 and 33.
+A history of your search terms is stored in **history.txt**.
