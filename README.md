@@ -7,7 +7,7 @@ Use this script to list magnet links for RARBG searches.
 - `requests` (`pip3 install requests`)
 
 ## Usage
-Edit `chickmagnet.py` and set the variable `APP_ID` to something unique of your choosing (without spaces).
+Edit **chickmagnet.py** and set the variable `APP_ID` to something unique of your choosing (without spaces).
 
 
 Get magnet links by `python3 chickmagnet.py "search term"`
